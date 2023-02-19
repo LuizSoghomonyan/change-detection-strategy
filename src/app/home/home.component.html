@@ -1,0 +1,8 @@
+<ng-container *ngIf="logForRenderChangeDetection()"></ng-container>
+<div class="red-border" style="width: 80%; height: 80%;">
+  <h2>Home Component</h2>
+  <!--  (click)="({})" нужен, так как без него change detection при нажатии не сработает-->
+  <button (click)="({})">Home Component</button>
+  <app-component-one></app-component-one>
+  <app-component-two></app-component-two>
+</div>

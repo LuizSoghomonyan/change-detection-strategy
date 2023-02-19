@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+.red-border{
+  border-radius: 5px;
+  border: solid red;
+}
+
+button{
+  margin: 10px;
+}
+
+h2{
+  margin: 5px;
+}
+h5{
+  margin: 5px;
+}
